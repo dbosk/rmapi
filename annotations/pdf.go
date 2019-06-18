@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 
 	"github.com/jung-kurt/gofpdf"
-	"github.com/juruen/rmapi/archive"
-	"github.com/juruen/rmapi/encoding/rm"
+	"github.com/dbosk/rmapi/archive"
+	"github.com/dbosk/rmapi/encoding/rm"
 )
 
 const (

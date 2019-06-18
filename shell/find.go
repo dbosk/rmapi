@@ -3,8 +3,8 @@ package shell
 import (
 	"errors"
 	"github.com/abiosoft/ishell"
-	"github.com/juruen/rmapi/filetree"
-	"github.com/juruen/rmapi/model"
+	"github.com/dbosk/rmapi/filetree"
+	"github.com/dbosk/rmapi/model"
 	"path/filepath"
 	"regexp"
 	"strings"

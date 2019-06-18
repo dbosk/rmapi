@@ -7,11 +7,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/juruen/rmapi/filetree"
-	"github.com/juruen/rmapi/log"
-	"github.com/juruen/rmapi/model"
-	"github.com/juruen/rmapi/transport"
-	"github.com/juruen/rmapi/util"
+	"github.com/dbosk/rmapi/filetree"
+	"github.com/dbosk/rmapi/log"
+	"github.com/dbosk/rmapi/model"
+	"github.com/dbosk/rmapi/transport"
+	"github.com/dbosk/rmapi/util"
 )
 
 // An ApiCtx allows you interact with the remote reMarkable API

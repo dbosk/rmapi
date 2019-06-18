@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/juruen/rmapi/annotations"
+	"github.com/dbosk/rmapi/annotations"
 
 	"github.com/abiosoft/ishell"
 )

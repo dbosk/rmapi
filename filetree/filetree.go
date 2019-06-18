@@ -3,8 +3,8 @@ package filetree
 import (
 	"errors"
 
-	"github.com/juruen/rmapi/model"
-	"github.com/juruen/rmapi/util"
+	"github.com/dbosk/rmapi/model"
+	"github.com/dbosk/rmapi/util"
 )
 
 type FileTreeCtx struct {

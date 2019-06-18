@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/juruen/rmapi/api"
-	"github.com/juruen/rmapi/log"
-	"github.com/juruen/rmapi/shell"
+	"github.com/dbosk/rmapi/api"
+	"github.com/dbosk/rmapi/log"
+	"github.com/dbosk/rmapi/shell"
 )
 
 const AUTH_RETRIES = 3
