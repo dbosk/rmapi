@@ -9,9 +9,6 @@ You can interact with the different API end-points through a shell. However, you
 run commands non-interactively. This may come in handy to script certian workflows such as
 taking automatic backups or uploading documents programmatically.
 
-*Warning*: If you installed _rmapi_ before (October 1, 2018), you will need to install the latest version,
-otherwise _rmapi_ will fail to authenticate after the changes in the server API that were introduced in September 28, 2018.
-
 
 ![Console Capture](docs/console.gif)
 
@@ -156,5 +153,6 @@ rMAPI will set the exit code to `0` if the command succeedes, or `1` if it fails
 
 # Environment variables
 
+- `RMAPI_CONFIG`: filepath used to store authentication tokens. When not set, rmapi uses the file `.rmapi` in the home directory of the current user.
 - `RMAPI_TRACE=1`: enable trace logging.
 - `RMAPI_USE_HIDDEN_FILES=1`: use and traverse hidden files/directories (they are ignored by default).

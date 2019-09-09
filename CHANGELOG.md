@@ -1,4 +1,12 @@
-## rmapi master
+## rmapi 0.0.6 (September 08, 2019)
+
+* Migrate to go11 modules
+
+* Add api.v2
+
+## rmapi 0.0.5 (August 11, 2019)
+
+* Fix issue to make document uploads work with reMarkable 1.7.x firmware upgrade
 
 * Increased http timeout to 5 minutes to enable upload of larger files
 
